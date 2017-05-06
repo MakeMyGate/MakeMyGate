@@ -17,7 +17,7 @@ Short gif showing possibilities of MMG
 
 
 
---Quick guide--
+## --Quick guide--
 1. General info
 2. MakeMyGate requirements
 3. Installing python and modules
@@ -26,20 +26,20 @@ Short gif showing possibilities of MMG
     3. Package manager
 4. Known problems
 
-1\. General info  
+### 1\. General info  
 MakeMyGate is a program dedicated to visualise and
 slice 2D coincidence matrices. It strongly relies on
 pyqtgraph library (info here: http://www.pyqtgraph.org/).
 MMG is designed to easily slice coincidence matrix with
 background subtraction.
 
-2\.MakeMyGate requires:  
+### 2\.MakeMyGate requires:  
 - python2.7
 - python modules: numpy, scipy, pyqtgraph*
     (they are not included by default,
     altought numpy and scipy are included in Anaconda)
 
-3\. Installing python and modules  
+### 3\. Installing python and modules  
 3.i. Easiest way to obtain python2.7 with numpy and scipy
 is to download and install Anaconda distribution,
 which is available here https://www.continuum.io/downloads
@@ -49,14 +49,14 @@ still you need to install pyqtgraph by typing in teminal:
 "[sudo] conda install pyqtgraph=0.9.10 scipy=0.15.1"
 Conda can be used to install other required modules.
 
-3.ii. If you don't want to download and install whole Anaconda 
+### 3.ii. If you don't want to download and install whole Anaconda 
 package (for example if you don't have much disk space) you 
 can go for Miniconda distribution, which is 
 available here: https://conda.io/miniconda.html
 After installing it type in terminal:
 "[sudo] conda install numpy scipy=0.15.1 pyqtgraph=0.9.10"
 
-3.iii. Another option is to use apt, yum or another 
+### 3.iii. Another option is to use apt, yum or another 
 package manager. First make sure that you have python 2.7
 and pip. If you don't, install it with availible 
 package manager. NumPy and SciPy also can be installed 
@@ -72,7 +72,7 @@ the user himself must take care to install at least
 one of these libraries using pip, conda or 
 other package manager. 
 
-4\. Known prolems  
+### 4\. Known prolems  
 We recommend to install olders version of pyqtgraph - 0.9.10 instead of 0.10.0.  
 Also for better peakfind consider using scipy 0.15.1
 
