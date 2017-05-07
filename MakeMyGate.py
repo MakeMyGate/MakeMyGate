@@ -586,7 +586,7 @@ class MainWindow(QtGui.QMainWindow):
         self.peaksLabelsUpper = [] #for peak find
         self.peaksLabelsLower = [] #for peak find
         self.ifTranspose = False #start with untransposed matrix
-        #self.additionalFunctionsMenu() #functions not usable for most users        
+        self.additionalFunctionsMenu() #functions not usable for most users        
         
     def setupUserInterface(self):
         """ Initialise the User Interface """  
