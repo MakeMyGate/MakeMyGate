@@ -8,7 +8,7 @@ Roman Szenborn (roman.szenborn@gmail.com).
 Short gif showing possibilities of MMG
 ![60Co decay lines as gif](http://i.imgur.com/VZnE7QX.gif "gif")
 
-Some screenshots of MMG
+Some screenshots of MMG  
 First screenshot. Upper spectrum is projection of matrix, bottom shows gated spectrum created by 
 "red"(peak) and "blue"(background) gates. Bottom spectrum shows first few states in rotational band.
 ![124Xe rotational band](http://image.prntscr.com/image/b2c36f6ea231475d958a9bb2138c105d.png "124Xe rotational band")
