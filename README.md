@@ -1,19 +1,20 @@
-# MakeMyGate
+# MakeMyGate (MMG)
 Program dedicated to analysing data stored as 2D histograms written by  
 Tomasz Marchlewski (marchlewski.tomasz@gmail.com)  
 and  
 Roman Szenborn (roman.szenborn@gmail.com).
 
-Some screenshots of MMG's  
+
+Short gif showing possibilities of MMG
+![60Co decay lines as gif](http://i.imgur.com/VZnE7QX.gif "gif")
+
+Some screenshots of MMG
 First screenshot. Upper spectrum is projection of matrix, bottom shows gated spectrum created by 
 "red"(peak) and "blue"(background) gates. Bottom spectrum shows first few states in rotational band.
 ![124Xe rotational band](http://image.prntscr.com/image/b2c36f6ea231475d958a9bb2138c105d.png "124Xe rotational band")
 
 Same as above, but for 60Co decay lines.
 ![60Co decay lines](http://image.prntscr.com/image/426f7a633af64ce88bcb1711ee99fb3f.png "60Co decay lines")
-
-Short gif showing possibilities of MMG
-![60Co decay lines as gif](http://i.imgur.com/VZnE7QX.gif "gif")
 
 
 
@@ -49,14 +50,14 @@ still you need to install pyqtgraph by typing in teminal:
 "[sudo] conda install pyqtgraph=0.9.10 scipy=0.15.1"
 Conda can be used to install other required modules.
 
-### 3.ii. If you don't want to download and install whole Anaconda 
+3.ii. If you don't want to download and install whole Anaconda 
 package (for example if you don't have much disk space) you 
 can go for Miniconda distribution, which is 
 available here: https://conda.io/miniconda.html
 After installing it type in terminal:
 "[sudo] conda install numpy scipy=0.15.1 pyqtgraph=0.9.10"
 
-### 3.iii. Another option is to use apt, yum or another 
+3.iii. Another option is to use apt, yum or another 
 package manager. First make sure that you have python 2.7
 and pip. If you don't, install it with availible 
 package manager. NumPy and SciPy also can be installed 
