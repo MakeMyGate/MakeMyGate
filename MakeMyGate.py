@@ -65,7 +65,6 @@ Special thanks to Wouter for introducing us to pyqtgraph
 """
 
 
-
 from __future__ import division
 import pyqtgraph as pg
 from pyqtgraph.widgets.GraphicsLayoutWidget import GraphicsLayoutWidget
